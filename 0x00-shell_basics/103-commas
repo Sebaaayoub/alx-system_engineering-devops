@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a -1p | grep -v "/\.\{1,2\}$" | sed ':a;N;$!ba;s/\n/, /g'
+ls -xamp
